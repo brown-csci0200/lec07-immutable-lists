@@ -9,6 +9,5 @@ public class Main {
         IList l3 = new Link(5, new Link(42, new EmptyList()));
 
         // L2 = L_immut.addFirst(4)
-        // L2 = l_immut.addFirst(4, L_immut)
     }
 }
