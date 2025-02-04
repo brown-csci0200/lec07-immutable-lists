@@ -8,6 +8,6 @@ public class Main {
         L1 = new NodeList(3, L1);
         L1.addFirst(10);
 
-        new NodeList(3, new NodeList(5, new NodeList(2, new EmptyList())));
+        new NodeList(8, new NodeList(1, new EmptyList()));
     }
 }
