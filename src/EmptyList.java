@@ -1,14 +1,12 @@
 package src;
 
-public class EmptyList  implements IList {
+public class EmptyList extends AbsList /* implements IList */ {
     // No fields
     public EmptyList() {
         // Nothing to do
     }
 
-    public NodeList addFirst(int newElt) {
-        return new NodeList(newElt, this);
-    }
+    // addFirst implementation moved to abstract class AbsList
 
     public boolean isEmpty() {
         return true;
